@@ -1,3 +1,6 @@
+package factorymethod.juomat;
+
+import factorymethod.Juoma;
 
 public class Viini implements Juoma{
 
