@@ -1,8 +1,8 @@
 package suunnittelu_teht3;
 
-public class Verkkokortti implements Laiteosa {
-
-	private double hinta = 142;
+public class Naytonohjain implements Laiteosa {
+	
+	private double hinta = 150;
 	
 	public double getHinta() {
 		return hinta;

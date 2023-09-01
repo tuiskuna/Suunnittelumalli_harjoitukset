@@ -2,9 +2,10 @@ package suunnittelu_teht3;
 
 public class Prosessori implements Laiteosa {
 
-	@Override
+	private double hinta = 322;
+	
 	public double getHinta() {
-		return 100;
+		return hinta;
 	}
 
 }

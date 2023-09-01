@@ -3,18 +3,19 @@ package suunnittelu_teht3;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Laite implements Laiteosa {
-
+public class Kokoonpano implements Laiteosa {
+	
 	private List<Laiteosa> laitteenosat;
 	
-	public Laite() {
+	public Kokoonpano() {
 		this.laitteenosat = new ArrayList<>();
 	}
 	
-	public void addLaiteosa(Laiteosa osa) {
+	public void addLaitteenOsa(Laiteosa osa) {
 		laitteenosat.add(osa);
 	}
-	
+
+	@Override
 	public double getHinta() {
 		double kokonaishinta = 0;
 		 for (Laiteosa osa : laitteenosat) {
@@ -22,5 +23,5 @@ public class Laite implements Laiteosa {
 		 }
 		return kokonaishinta;
 	}
-
+	
 }

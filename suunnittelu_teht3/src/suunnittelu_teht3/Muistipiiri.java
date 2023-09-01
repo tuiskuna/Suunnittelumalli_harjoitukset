@@ -2,9 +2,10 @@ package suunnittelu_teht3;
 
 public class Muistipiiri implements Laiteosa {
 
-	@Override
+	private double hinta = 60;
+	
 	public double getHinta() {
-		return 50;
+		return hinta;
 	}
 
 }
