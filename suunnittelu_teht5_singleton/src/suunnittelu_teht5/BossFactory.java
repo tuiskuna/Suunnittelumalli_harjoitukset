@@ -2,6 +2,7 @@ package suunnittelu_teht5;
 
 public class BossFactory implements AbstractFactory {
 
+	//singleton
 	private static BossFactory instance = null;
 
 	private BossFactory() {}
