@@ -2,6 +2,7 @@ package suunnittelu_teht5;
 
 public class AdidasFactory implements AbstractFactory{
 
+	//singleton käyttöön
 	private static AdidasFactory instance = null;
 
 	private AdidasFactory() {}
