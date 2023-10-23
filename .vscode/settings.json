@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "suunnittelu_teht9_strategy",
         "suunnittelu_teht8_template",
         "suunnittelu_teht7_state",
         "suunnittelu_teht6_decorator",
-        "suunnittelu_teht9_strategy"
+        "Suunnittelu_teht10_chainof"
     ]
 }
