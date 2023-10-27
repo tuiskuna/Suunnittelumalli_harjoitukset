@@ -4,6 +4,7 @@
         "suunnittelu_teht8_template",
         "suunnittelu_teht7_state",
         "suunnittelu_teht6_decorator",
-        "Suunnittelu_teht10_chainof"
+        "Suunnittelu_teht10_chainof",
+        "suunnittelu_teht11_memento"
     ]
 }
