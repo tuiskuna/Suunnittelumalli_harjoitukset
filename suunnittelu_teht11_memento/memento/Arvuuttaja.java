@@ -1,7 +1,7 @@
 
 public class Arvuuttaja {
 
-    private class Memento {
+    class Memento {
         private final int number;
 
         public Memento(int number) {
@@ -15,16 +15,19 @@ public class Arvuuttaja {
 
     public Memento liityPeliin(Pelaaja pelaaja) {
         int arvottuLuku = 1 + (int)(Math.random() * 10);
-        System.out.println("Pelaajan "+ pelaaja.getNimi() + " luku: " + arvottuLuku);
+        System.out.println("Pelaajan "+ pelaaja.getPelaajaNumero() + " luku: " + arvottuLuku);
         return new Memento(arvottuLuku);    //palautetaan memento pelaajalle
     }
 
-     public boolean arvaa(Object o, int arvaus, String nimi) {
+     public synchronized boolean arvaa(Object o, int arvaus) {
         Memento memento = (Memento)o; //cast object mementoksi
-        //jos arvaus oikein: voitti pelin
         if (arvaus == memento.getNumber()) {
-            System.out.println("oikea luku!");
             return true;
+        }
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
         return false;
     }
