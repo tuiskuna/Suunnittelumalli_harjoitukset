@@ -1,10 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "suunnittelu_teht9_strategy",
-        "suunnittelu_teht8_template",
-        "suunnittelu_teht7_state",
-        "suunnittelu_teht6_decorator",
-        "Suunnittelu_teht10_chainof",
-        "suunnittelu_teht11_memento"
+        "suunnittelu_teht12_proxy"
     ]
 }
