@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "suunnittelu_teht12_proxy"
+        "suunnittelu_teht12_proxy",
+        "suunnittelu_teht13_visitor"
     ]
 }
