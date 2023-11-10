@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "suunnittelu_teht13_visitor",
         "suunnittelu_teht12_proxy",
-        "suunnittelu_teht14_builder"
+        "suunnittelu_teht14_builder",
+        "suunnittelu_teht15_adapter"
     ]
 }
