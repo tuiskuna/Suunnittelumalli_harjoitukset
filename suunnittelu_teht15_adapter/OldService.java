@@ -1,5 +1,6 @@
 public class OldService {
-    public String getOldService(){
-        return "Old service being used";
+
+    public int getSum(){
+        return 50;
     }
 }

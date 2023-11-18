@@ -6,6 +6,7 @@ public class Test {
 
         ClientClass client = new ClientClass(adapter);
 
-        client.requestService();
+        int sum = client.requestService();
+        System.out.println("The converted sum: " + sum);
     }
 }

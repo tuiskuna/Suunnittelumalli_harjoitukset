@@ -1,3 +1,3 @@
 public interface ITarget {
-    String getService();
+    int getSum();
 }

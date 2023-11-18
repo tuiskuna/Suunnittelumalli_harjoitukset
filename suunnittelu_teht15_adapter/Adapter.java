@@ -7,7 +7,10 @@ public class Adapter implements ITarget {
     }
 
     @Override
-    public String getService() {
-        return oldService.getOldService();
+    public int getSum() {
+        System.out.println("Requesting old sum from adaptee, old sum: " + oldService.getSum());
+        int convertedSum = oldService.getSum() * 100;
+        System.out.println("Converting sum by multiplying with 100");
+        return convertedSum;
     }
 }
