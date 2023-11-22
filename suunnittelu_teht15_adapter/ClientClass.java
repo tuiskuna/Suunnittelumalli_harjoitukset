@@ -7,6 +7,7 @@ public class ClientClass {
         this.adapter = a;
     }
     public int requestService(){
+        //tänne voisi sitten lisätä niitä uusia eri servicejä, vois antaa esim parametreina.
         return adapter.getSum();
     }
 }
