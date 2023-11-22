@@ -4,6 +4,7 @@ public class BonusVisitor implements PokemonVisitor {
 
     @Override
     public void visit(Charmander charmander) {
+        //tähän vois laittaa charmander.receivePoints(); (joka sit toteutettu itse luokassa)
        System.out.println("Charmander gets 10 bonus points");
     }
 
