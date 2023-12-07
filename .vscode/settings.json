@@ -1,8 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "suunnittelu_teht19_iterator",
+        "suunnittelu_teht15_adapter",
+        "suunnittelu_teht14_builder",
         "suunnittelu_teht13_visitor",
         "suunnittelu_teht12_proxy",
-        "suunnittelu_teht14_builder",
-        "suunnittelu_teht15_adapter"
+        "suunnittelu_teht21_facade"
     ]
 }
